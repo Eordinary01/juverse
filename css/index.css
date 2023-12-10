@@ -12,12 +12,14 @@ body {
   color: white;
 }
 .navbar {
+  width: 100vw;
   display: flex;
-  margin: 12px;
+  /* margin: 12px; */
   padding: 17px;
   top: 8px;
   left: 0;
   align-items: center;
+  justify-content: space-between;
   background-color: rgba(0, 0, 0, 0.25);
   box-shadow: 0-1px 25px -10px rgba(255, 255, 255, 0.5),
     0 1px 25px -10px rgba(255, 255, 255, 0.5);
@@ -47,7 +49,7 @@ body {
   color: white;
   margin: 0 19px;
   padding: 4px 2px;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-family: Inter;
 }
 .navbar .navcontent li a {
@@ -56,7 +58,7 @@ body {
   transition: all 0.4s ease-in-out;
 }
 .navbar .navcontent li a:hover {
-  font-size: 1.7rem;
+  font-size: 1.3rem;
   color: rgb(56, 54, 54);
 }
 .future-verse {
@@ -324,7 +326,7 @@ body {
   margin: 3px 3px;
 }
 
-@media only screen and (max-width: 1320px) {
+@media only screen and (max-width: 1200px) {
   .burger {
     display: block;
   }
